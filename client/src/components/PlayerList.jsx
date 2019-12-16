@@ -13,6 +13,8 @@ class PlayerList extends React.Component{
         console.log(this.props.players)
         return (
             <div className="player-list">
+                        <button onClick={this.props.darkMode} className="darkmode-toggle">DarkMode</button>
+
                {this.props.players.map(player=>{
                    return <PlayerCard player={player} key={player.id} />
                })}

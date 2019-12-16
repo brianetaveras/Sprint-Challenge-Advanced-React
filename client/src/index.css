@@ -12,9 +12,33 @@ code {
     monospace;
 }
 
+.player-list{
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
 .player-card{
   height: 50px;
+  width: 200px;
+  margin: 10px auto;
+  padding: 20px;
+  box-shadow: 5px 5px 10px ;
+}
+
+.player-card label{
+  font-weight: bold;
+}
+
+.dark-mode {
+  color: #fff;
+  background-color: #313843;
+
+}
+
+
+.darkmode-toggle{
+  margin: 10px auto;
   width: 100px;
-  margin: 0 auto;
-  
+  padding: 10px;
+
 }
