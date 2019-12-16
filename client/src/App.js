@@ -21,6 +21,7 @@ function darkMode(){
 
   return (
     <div>
+      <h1></h1>
       <PlayerList darkMode={darkMode} players={data} />
     </div>
   );
