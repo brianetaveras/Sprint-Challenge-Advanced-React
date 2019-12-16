@@ -8,7 +8,6 @@ class PlayerCard extends React.Component{
 
         }
     }
-
     render(){
         return (
             <div className="player-card">
@@ -19,6 +18,7 @@ class PlayerCard extends React.Component{
         )
     }
 }
+
 
 
 export default PlayerCard

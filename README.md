@@ -23,9 +23,15 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit the `ANSWERS.md` file to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Why would you use class component over function components (removing hooks from the question)?
+    We were not able to use lifecycle functions before useEffect, and before we used class component if we needed that function :) 
 - [ ] Name three lifecycle methods and their purposes.
+    ComponentDidMount
+    ComponentDidUpdate
+    ComponentWillUpdate
 - [ ] What is the purpose of a custom hook?
+    Keep our code DRY and re-use them :)
 - [ ] Why is it important to test our apps?
+    To make sure they are scalable :) 
 
 ## Project Set Up
 
